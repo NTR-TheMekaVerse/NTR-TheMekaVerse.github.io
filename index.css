@@ -18,10 +18,8 @@
  font-weight: bold;
 }
 
-@media all and (max-width: 768px){
-  #rate-patch{
-    display: none;
-  }
+#name{
+  width: 50rem;
 }
 
 .btn{
@@ -29,18 +27,34 @@
 }
 
 .stack-svg{
- width: 80px;
- height: auto;
- margin-left: 2rem;
+  width: 80px;
+  height: auto;
+  margin-left: 2rem;
 }
 
 .card{
- width: 18rem;
- margin-left: auto;
- margin-right: auto;
+  width: 18rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .card-img-top{
- height: 200px;
- width: auto;
+  height: 200px;
+  width: auto;
+}
+
+@media (max-width: 991.98px) { 
+  #name{
+    max-width: 38rem;
+  }
+ }
+
+@media (max-width: 767.98px) { 
+  #rate-patch{
+    display: none;
+  }
+
+  #name{
+    max-width: 25rem;
+  } 
 }
